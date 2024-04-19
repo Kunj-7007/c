@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "CALCULAT.C": "cpp"
+        "CALCULAT.C": "cpp",
+        "FIRSTLAST.C": "cpp"
     },
     "cmake.configureOnOpen": false
 }
