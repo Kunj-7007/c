@@ -1,7 +1,9 @@
 {
     "files.associations": {
         "CALCULAT.C": "cpp",
-        "FIRSTLAST.C": "cpp"
+        "FIRSTLAST.C": "cpp",
+        "stdio.h": "c",
+        "math.h": "c"
     },
     "cmake.configureOnOpen": false
 }
