@@ -3,7 +3,9 @@
         "CALCULAT.C": "cpp",
         "FIRSTLAST.C": "cpp",
         "stdio.h": "c",
-        "math.h": "c"
+        "math.h": "c",
+        "stdlib.h": "c",
+        "typeinfo": "c"
     },
     "cmake.configureOnOpen": false
 }

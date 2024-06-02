@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 void main()
 {
     int i[5] = {1, 2, 3, 4, 5};
@@ -6,6 +7,7 @@ void main()
     pointer_1 = &i[0];
     int add = (int)pointer_1 + (sizeof(i) - sizeof(i[0]));
     printf("%d is the pointer 1 and %d is add", (int)pointer_1, add);
+    free(pointer_1);
     while ((int)pointer_1 <= add)
     {
         printf("\n%d\n", *pointer_1);
